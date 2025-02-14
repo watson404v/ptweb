@@ -1,0 +1,35 @@
+/* ヘッダー全体のスタイル */
+header {
+    background-color: #333; /* 背景色 */
+    padding: 10px 0; /* 上下の余白 */
+    text-align: center; /* テキストの中央揃え */
+  }
+  
+  /* ナビゲーションバーのスタイル */
+  header nav ul {
+    list-style-type: none; /* リストのデフォルトの点を消す */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* リストアイテムのスタイル */
+  header nav ul li {
+    display: inline; /* 横並びにする */
+    margin-right: 20px; /* アイテム間の余白 */
+  }
+  
+  /* リンクのスタイル */
+  header nav ul li a {
+    text-decoration: none; /* 下線を消す */
+    color: white; /* テキスト色を白に */
+    font-size: 18px; /* フォントサイズ */
+    padding: 5px 10px; /* リンクの周りの余白 */
+    transition: background-color 0.3s ease; /* ホバー時に背景色が変わる */
+  }
+  
+  /* ホバー時のリンクの色 */
+  header nav ul li a:hover {
+    background-color: #555; /* ホバー時の背景色 */
+    color: #ffcc00; /* ホバー時の文字色 */
+  }
+  
